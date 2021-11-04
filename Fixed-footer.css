@@ -1,0 +1,7 @@
+/*to create a mobile app like footer first, follow tutorial at turbohosty.com*/
+
+selector {
+position: fixed;
+bottom: 0;
+z-index: 9999;
+}

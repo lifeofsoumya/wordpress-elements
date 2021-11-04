@@ -1,0 +1,9 @@
+.author-name:after {
+    content: '\f058';
+    font-family: FontAwesome;
+		font-size: 20px;
+    margin-left:8px;
+	color:#1DADFF;}
+.author-name{
+	color:#1DADFF;
+}

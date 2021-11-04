@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+                .main{
+            background: linear-gradient(to left, rgb(255, 115, 0) , rgb(255, 81, 0)) ;
+            border-radius: 6px;
+            position: relative;
+            display: flex;
+        }
+        .leftside{
+            margin: 30px;
+            padding-top: 10px;
+            padding-bottom: 15px;
+            padding-left: 10px;
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+        }
+        .leftside p{
+            font-weight: 500;
+        }
+        .leftside h3{
+            font-weight: 700;
+            color: #fff;
+            font-size: 26px;
+        }
+        .contimg{
+            position: absolute;
+            max-width: 230px;
+            right: 0;
+            bottom: 0;
+            -webkit-user-drag: none;
+            
+        }
+        @media screen and (max-width: 600px) {
+            .contimg{visibility: hidden;}
+            
+        }
+        .btn1{
+            background-color: #ffcb3c;
+            border-radius: 6px;
+            color: black;
+            border: none;
+            display: inline-block;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            cursor: pointer;
+        }
+        .btn1:hover{
+            background-color: #f7be23;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="leftside">
+            <h3>Bring Millions of Customers</h3>
+            <p> We are specialized in Marketing,</p>
+            <button class="btn1" onclick="window.location.href='https://pepeso.com/#get-a-quote'">Get a Quote</button>
+
+        </div>
+        <div class="rightside">
+            <img class="contimg" src="https://pepeso.com/wp-content/uploads/2021/04/boost-png.png">
+        </div>
+    </div>
+
+
+</body>
+</html>

@@ -60,6 +60,19 @@
     <div class="mainarea">
         <h1>There we go</h1>
     </div>
+
+    <script>
+        function popOff() {
+
+            document.body.addEventListener('click', function (event) {
+                console.log('clicked')
+                document.querySelector(".noti-box").style.display = "none";
+            })
+        }
+        popOff()
+
+
+    </script>
 </body>
 
 </html>

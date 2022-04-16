@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PromoBox</title>
     <style>
-        body{
-            padding:0px;
-            margin:0px;
+        body {
+            padding: 0px;
+            margin: 0px;
         }
+
         .promo-box {
             margin-top: 305px;
             padding: 30px;
@@ -18,7 +19,7 @@
 
         .main-prod-box {
             background-color: #191b2d;
-            padding: 0 20px 50px 20px;
+            padding: 0 30px 50px 30px;
             border-radius: 23px 23px 6px 6px;
             margin-top: 100px;
         }
@@ -56,16 +57,18 @@
             .img-logo {
                 flex-direction: column;
             }
-            .img-logo img{
-                display:none;
+
+            .img-logo img {
+                display: none;
             }
 
-            .main-prod-box{
-                margin-top:190px;
+            .main-prod-box {
+                margin-top: 190px;
             }
+
             .promo-box {
-            padding: 30px 0;
-        }
+                padding: 30px 0;
+            }
         }
 
         .img-logo {
@@ -85,12 +88,26 @@
         }
 
         .promo-box {
-            background-image: url("https://media.discordapp.net/attachments/795866620412428330/964885332002738186/unknown.png");
+            background-image: url("https://cdn.discordapp.com/attachments/941650096855068752/964941225092341780/promo-bg.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
-            border-radius:9px;
+            border-radius: 9px;
         }
+
+        /* #join-btn-promo {
+            display: flex;
+            justify-content: center;
+            align-items: center;            
+        }
+
+        #join-btn-promo button {
+            padding: 10px 20px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            font-family: poppins, Helvetica, sans-serif;
+        } */
     </style>
 </head>
 
@@ -99,26 +116,27 @@
         <span class="img-logo"><img
                 src="https://cdn.discordapp.com/attachments/795866620412428330/964880037872541706/2022-logo-ai-file-export.png"
                 alt="">
-            <p id="promo-text">Learn and Create Best Projects</p>
+            <p id="promo-text">Learn to Create Unique Projects</p>
         </span>
         <div class="main-prod-box">
             <div class="inner-prod-box">
-                <span class="span-prod-box"><img
+                <span class="span-prod-box"><a href="https://indgeek.com/?s=javascript" target="_blank"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="30px"
+                        alt=""></a></span>
+                <span class="span-prod-box"><a href="https://indgeek.com/?s=python" target="_blank"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png"
+                        width="30px" alt=""></a></span>
+                <span class="span-prod-box"><a href="https://indgeek.com/?s=cpp" target="_blank"><img
                         src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" width="30px"
-                        alt=""></span>
-                <span class="span-prod-box"><img
-                        src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" width="30px"
-                        alt=""></span>
-                <span class="span-prod-box"><img
-                        src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" width="30px"
-                        alt=""></span>
-                <span class="span-prod-box"><img
-                        src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" width="30px"
-                        alt=""></span>
-                <span class="span-prod-box"><img
-                        src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" width="30px"
-                        alt=""></span>
+                        alt=""></a></span>
+                <span class="span-prod-box"><a href="https://indgeek.com/?s=linux" target="_blank"><img
+                            src="https://cdn.discordapp.com/attachments/941650096855068752/964936976035885116/58480e82cef1014c0b5e4927.png"
+                            width="30px" alt=""></a></span>
+                <span class="span-prod-box"><a href="https://indgeek.com/?s=database" target="_blank"><img
+                        src="https://png.pngtree.com/png-vector/20190811/ourmid/pngtree-vector-server-icon-png-image_1660325.jpg"
+                        width="30px" alt=""></a></span>
             </div>
+            <!-- <span id="join-btn-promo"><button>Join Now</button></span> -->
         </div>
 </body>
 

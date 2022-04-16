@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PromoBox</title>
+    <style>
+        body{
+            padding:0px;
+            margin:0px;
+        }
+        .promo-box {
+            margin-top: 305px;
+            padding: 30px;
+        }
+
+        .main-prod-box {
+            background-color: #191b2d;
+            padding: 0 20px 50px 20px;
+            border-radius: 23px 23px 6px 6px;
+            margin-top: 100px;
+        }
+
+        .inner-prod-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 28px;
+            transform: translate(0, -35%);
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            display: flex;
+            justify-content: center;
+            justify-content: space-evenly;
+        }
+
+        .span-prod-box {
+            text-align: center;
+        }
+
+        .span-prod-box:nth-child(5) {
+            border: none;
+        }
+
+        @media screen and (max-width:540px) {
+            .inner-prod-box {
+                flex-direction: column;
+            }
+
+            .span-prod-box {
+                padding: 20px 0 20px 0;
+                border: none;
+                border-bottom: 1px solid rgba(107, 107, 107, 0.185);
+            }
+
+            .img-logo {
+                flex-direction: column;
+            }
+            .img-logo img{
+                display:none;
+            }
+
+            .main-prod-box{
+                margin-top:190px;
+            }
+            .promo-box {
+            padding: 30px 0;
+        }
+        }
+
+        .img-logo {
+            display: flex;
+            text-align: center;
+        }
+
+        .img-logo img {
+            width: 80px;
+            position: absolute;
+        }
+
+        #promo-text {
+            font-family: poppins, Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin: auto;
+        }
+
+        .promo-box {
+            background-image: url("https://media.discordapp.net/attachments/795866620412428330/964885332002738186/unknown.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+            border-radius:9px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="promo-box">
+        <span class="img-logo"><img
+                src="https://cdn.discordapp.com/attachments/795866620412428330/964880037872541706/2022-logo-ai-file-export.png"
+                alt="">
+            <p id="promo-text">Learn and Create Best Projects</p>
+        </span>
+        <div class="main-prod-box">
+            <div class="inner-prod-box">
+                <span class="span-prod-box"><img
+                        src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" width="30px"
+                        alt=""></span>
+                <span class="span-prod-box"><img
+                        src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" width="30px"
+                        alt=""></span>
+                <span class="span-prod-box"><img
+                        src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" width="30px"
+                        alt=""></span>
+                <span class="span-prod-box"><img
+                        src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" width="30px"
+                        alt=""></span>
+                <span class="span-prod-box"><img
+                        src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" width="30px"
+                        alt=""></span>
+            </div>
+        </div>
+</body>
+
+</html>
